@@ -17,7 +17,6 @@ app.get("/numrandom", (request, response) => {
     const strPedido = 'p'+crypto.randomBytes(10).toString('hex');
     response.send('O código gerado para voce foi-->'+strPedido)
 
-
 });
 
 app.get('/', (request, response) => {
